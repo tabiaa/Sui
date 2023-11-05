@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+    background-color: white;
+}
+nav{
+    color: white;
+font-size: 12px;
+display: flex;
+background-color: #333333;
+padding-bottom: 12px; 
+padding-top: 12px; 
+height: auto;
+position: fixed; 
+width: 100%;
+justify-content: center;
+}
+nav a{
+    text-decoration: none;
+     color: white;
+     padding-left: 35px;
+     opacity: 0.75;
+} 
+nav a:hover{
+  color: brown;
+}
+#cont{
+    font-size:14px ;
+    padding-top: 60px;
+    height: auto;
+    padding-bottom: 0.5px;
+    color: black;
+    opacity: 0.75;
+    backgroundColor:#f5f5f7;
+    padding-bottom: 60px;
+}
+#cont a{
+    text-decoration: none;
+    display: inline-flexbox;
+    color: black;
+    font-size: x-large;
+}
+#cont p{
+    font-size: xx-large;
+}
+#section2{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+  }
+  
+  .circle img {
+    width: 70%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s; 
+  }
+  
+  .circle:hover img {
+    transform: rotate(360deg); 
+  }
+  #c1{
+    border: 2px solid #339ECC;
+    background-color: #339ECC;
+  }
+  #c1:hover {
+    border-color: white;
+    background-color: white;
+  }
+  #c2{
+    border: 2px solid #F58820;
+    background-color: #F58820;
+  }
+  #c2:hover {
+    border-color: white;
+    background-color: white;
+  }
+  #c3{
+    border: 2px solid #E6BA17;
+    background-color: #E6BA17;
+  }
+  #c3:hover {
+    border-color: white;
+    background-color: white;
+  }
+  #c4{
+    border: 2px solid #E6BA17;
+    background-color: #E6BA17;
+  }
+  #c4:hover {
+    border-color: white;
+    background-color: white;
+  }
+  #c5{
+    border: 2px solid #231F20;
+    background-color: #231F20;
+  }
+  #c5:hover {
+    border-color: white;
+    background-color: white;
+  }
+  #c6{
+    border: 2px solid #E6BA17;
+    background-color: #E6BA17;
+  }
+  #c6:hover {
+    border-color: white;
+    background-color: white;
+  }
+  #c7{
+    border: 2px solid #339ECC;
+    background-color: #339ECC;
+  }
+  #c7:hover {
+    border-color: white;
+    background-color: white;
+  }
+  #c8{
+    border: 2px solid #231F20;
+    background-color: #231F20;
+  }
+  #c8:hover {
+    border-color: white;
+    background-color: white;
+  }
+  @keyframes changeColor {
+  
+    25% { color: black; }
+    50% { color: white; }
+    75% { color: white; }
+    100% { color: red; }
+  }
+  
+  .color-changing-text {
+    animation: changeColor 0.5s linear infinite;
+  }
